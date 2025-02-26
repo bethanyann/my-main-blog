@@ -14,13 +14,19 @@
   color: rgb(117, 117, 117);
 }
 
+.post-header__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .post-list__wrapper {
   margin-top: 6rem;
 }
 
 .post-list__heading {
   font-size: var(--text-3xl);
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 .post-list {
@@ -102,12 +108,12 @@
 }
 
 .all-posts-link {
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   width: fit-content;
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: var(--text-lg);
+  /* margin-left: auto;
+  margin-right: auto; */
+  font-size: var(--text-sm);
   text-decoration: underline;
   color: currentColor;
 }

@@ -3,7 +3,7 @@
   width: 100%;
   text-transform: capitalize;
   text-transform: uppercase;
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
 }
 
 .header__content {
@@ -14,9 +14,9 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 48.75rem;
-  padding: 1rem;
-  margin-top: 1rem;
-  border-bottom: 1px solid rgba(230, 230, 230, 1);
+  /* padding: 1rem;
+  margin-top: 1rem; */
+  /* border-bottom: 1px solid rgba(230, 230, 230, 1); */
 }
 
 .site-title {

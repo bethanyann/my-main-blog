@@ -9,10 +9,23 @@
 @import 'post.css';
 @import 'about.css';
 
+body,
+html {
+  height: 100%;
+}
+
 .layout-wrapper {
   display: grid;
   grid-template-rows: auto minmax(0, 1fr) auto;
   min-height: 100%;
+}
+
+.background-image {
+  /* background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F002%2F795%2F945%2Foriginal%2Fbullet-journal-texture-seamless-pattern-dot-grid-graph-paper-template-for-notebooks-dotted-background-printable-design-vector.jpg&f=1&nofb=1&ipt=b5f9c8932e06bc42642033ecc8ca80d92a84c78a22fa3645f3270de8e02f380f&ipo=images'); */
+  /* height: 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main {
