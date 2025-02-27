@@ -4,3 +4,6 @@ npm-debug.*
 .DS_Store
 public
 src/sample-posts/
+
+node_modules
+.env

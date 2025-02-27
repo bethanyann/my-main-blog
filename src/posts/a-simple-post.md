@@ -1,8 +1,8 @@
 ---
-title: A simple post
-date: '2020-10-18'
-tags: [demo-content, simple-post]
-description: Meditation gentrify fam, yuccie kickstarter brunch vape. Pitchfork freegan biodiesel bicycle rights. Semiotics flexitarian four loko XOXO raw denim chartreuse.
+title: my new blog
+date: '2025-02-25'
+tags: [blagh, vlogging, test-tag,]
+description: This is just a little sample description for a little blog 
 permalink: posts/{{ title | slug }}/index.html
 ---
 
